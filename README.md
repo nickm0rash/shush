@@ -3,7 +3,7 @@
 
 **Shush** is a secure, self-hosted, syncing, and scriptable CLI-based password manager written in Java. Designed for power users, homelabbers, and privacy enthusiasts, Shush prioritizes **security first**.
 
-## PROJECT COMPLETION ~5%
+## PROJECT COMPLETION ~30%
 
 ## 🚀 Features (Coming Soon) 
 
