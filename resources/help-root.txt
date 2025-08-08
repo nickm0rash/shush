@@ -1,0 +1,20 @@
+Shush Password Manager v0.1.0
+Usage:
+  shush <command> [options]
+
+Commands:
+  init             Initialize a new vault
+  add              Add a new password
+  get              Retrieve a password
+  gen              Generate and save a new password
+  search           Search stored entries
+  rm               Remove a password
+  update           Modify an existing entry
+  pin              Set or change your PIN
+  connect          Connect to a sync server
+  import-csv       Import passwords from a CSV file
+  totp-add         Enable TOTP 2FA
+  totp-remove      Disable TOTP 2FA
+  totp-update      Update your TOTP secret
+
+Run 'shush <command> --help' for more info on a command.
