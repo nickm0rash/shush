@@ -56,9 +56,9 @@ public class Main {
         commands.put("import-csv", new ImportCommand());
 
         // TOTP-related
-        commands.put("totp-add", new TotpAddCommand());
-        commands.put("totp-remove", new TotpRemoveCommand());
-        commands.put("totp-update", new TotpUpdateCommand());
+        commands.put("totp-add", new TOTPAddCommand());
+        commands.put("totp-remove", new TOTPRemoveCommand());
+        commands.put("totp-update", new TOTPUpdateCommand());
 
         //TODO: Other 2FA, Twilio, etc.
     }
