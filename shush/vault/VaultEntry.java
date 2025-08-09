@@ -5,7 +5,7 @@ public class VaultEntry {
         private final String password;
         private final boolean requires2FA;
 
-        public VaultEntry(String username, String password, boolean requires2FA) {
+        public VaultEntry(String label, String username, String password, String comment, boolean requires2FA) {
             this.username = username;
             this.password = password;
             this.requires2FA = requires2FA;

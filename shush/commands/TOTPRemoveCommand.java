@@ -1,7 +1,7 @@
 package shush.commands;
 
 
-public class TotpRemoveCommand implements Command {
+public class TOTPRemoveCommand implements Command {
     public void execute(String[] args) {
         if (args.length > 0 && args[0].equalsIgnoreCase("--help")) {
             printHelp();

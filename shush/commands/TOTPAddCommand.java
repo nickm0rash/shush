@@ -1,7 +1,7 @@
 package shush.commands;
 
 
-public class TotpAddCommand implements Command{
+public class TOTPAddCommand implements Command{
     public void execute(String[] args) {
         if (args.length > 0 && args[0].equalsIgnoreCase("--help")) {
             printHelp();
